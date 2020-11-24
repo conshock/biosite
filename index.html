@@ -12,8 +12,7 @@
     </head>
     <body>
 
-        <!-- NavBar with links to each section of the page(maybe?) and subject name -->
-        <!-- Header/Footer organism -->
+        <!-- Fixed navBar(header/footer organism) -->
         <div class="navBar">
             <a href="#">Biosite</a>
             <a href="#Bio">About</a>
@@ -21,19 +20,22 @@
             <a href="#Ensembles">Ensembles</a>
         </div>
 
+        
         <div class="containerTop">
 
-            <!-- First grid-container with hero image on left and copy text on right -->
+            <!-- grid1 -->
             <div class="gridLeft1">
                 <img class="hero" src="images/Graduation1.jpg" alt="Graduation with diploma">
             </div>
             <div class="gridRight1">
-                <h1 id="Bio">Hannah Hauser:
-                    Musician, Performer, Educator.
+                <h1 id="Bio">
+                <span class="heroName">Hannah Hauser:</span>
+                Musician, Performer, Educator.
                 </h1>
             </div>
         </div>
 
+        <!-- Popout-page section -->
         <section class="mainText">
             <div class ="popOut">
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi impedit odit
@@ -58,9 +60,9 @@
             </div>
         </section>
         
-
+        <!-- grid2 & grid3 -->
         <div class="containerBottom">
-            <!-- Second grid-container with education table on left and hero image on right -->
+            <!-- grid2 with education table on left and hero image on right -->
             <div class="gridLeft2">
                 <table id="Education">
                     <tr>
@@ -85,9 +87,9 @@
                 <img class="hero" src="images/mcdc1.jpg" alt="">
             </div>
 
-            <!-- Third grid-container with imageGrid on left and list of ensembles on right -->
+            <!-- grid3 with imageGrid on left and list of ensembles on right -->
             <div id="Ensembles" class="gridLeft3">
-                <div class="nested">
+                <div class="nestedGrid">
                     <img class="nestedImg" src="images/Gateway1.jpg" alt="Gateway performance">                
                     <img class="nestedImg" src="images/Carnegie1.jpg" alt="Carnegie performance">               
                     <img class="nestedImg" src="images/WHS2.jpg" alt="Music City performance">                
@@ -105,11 +107,12 @@
             </div>
 
         </div>
+
+        <!-- Footer navBar -->
         <div class="footer">
             <a href="#">Biosite</a>
             <a href="mailto: person@domain.com">Contact</a>
             <a href="https://www.ucmo.edu/" target="_blank">Go to UCM!</a>
-            <a href="#Ensembles"></a>
         </div>
 
     </body>

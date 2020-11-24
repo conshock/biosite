@@ -25,7 +25,7 @@ body {
 }
 
 .navBar a:hover {
-    background-color: #ff3650;
+    color: #ff3650;
     transition: .6s;
 }
 
@@ -79,10 +79,15 @@ body {
 }
 
 .gridRight1 h1 {
-    padding-top: 33%;
+    padding-top: 25%;
     padding-left: 20%;
     padding-right: 10%;
     padding-bottom: 33%;
+    font-size: 50px;
+}
+
+.heroName {
+    color: #edede6;
 }
 
 .gridRight1 {
@@ -139,7 +144,7 @@ th {
     padding: 20px 20px;
 }
 
-.nested {
+.nestedGrid {
     background-color: #1a222e;
     display: grid;
     grid-template-columns: 1fr 1fr;
