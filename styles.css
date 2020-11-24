@@ -87,7 +87,7 @@ body {
     font-size: 50px;
 }
 
-hr {
+hr.hr {
     border: 3px solid #edede6;
     border-radius: 10px;
 }
