@@ -177,3 +177,45 @@ th {
     background-color: #1a222e;
     transition: .8s;
 }
+
+@media (max-width: 940px) {
+    .containerTop {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .gridLeft1 {
+        padding: 5% 5%;
+    }
+
+    .gridRight1 {
+        padding: 0% 0%;
+        height: 400px
+    }
+
+    #Bio {
+        margin: 0% 0%;
+        padding: 0% 0%;
+    }
+
+    .mainText {
+        padding: 0px 0px;
+        margin: 0px 0px;
+    }
+
+    .popOut {
+        padding: 5% 0px;
+        margin: 0px 0px;
+    }
+
+    .containerBottom {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .imageGrid {
+        display: flex;
+        flex-direction: column;
+        min-height: 1900px;
+    }
+}
