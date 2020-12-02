@@ -223,3 +223,14 @@ th {
         height: auto;
     }
 }
+
+@media (max-width: 320px) {
+    .navBar {
+        height: fit-content;
+    }
+    
+    .navBar a {
+        font-size: 14px;
+        margin: auto auto;
+    }
+}
