@@ -178,7 +178,7 @@ th {
     transition: .8s;
 }
 
-@media (max-width: 940px) {
+@media (min-width: 576px) {
     .containerTop {
         display: flex;
         flex-direction: column;
