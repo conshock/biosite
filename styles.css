@@ -184,6 +184,10 @@ th {
         flex-direction: column;
     }
 
+    .hero {
+        width: 80%;
+    }
+
     .gridLeft1 {
         padding: 5% 5%;
     }
@@ -216,6 +220,6 @@ th {
     .imageGrid {
         display: flex;
         flex-direction: column;
-        min-height: 1900px;
+        height: auto;
     }
 }
