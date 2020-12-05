@@ -25,7 +25,7 @@ body {
 }
 
 .navBar a:hover {
-    color: #ff3650;
+    background-color: #545454;
     transition: .6s;
 }
 
@@ -153,7 +153,7 @@ th {
     font-size: 20pt;
     border: #edede6 1px solid;
     padding: 20px 20px;
-    background-color: #333333;
+    background-color: rgba(51, 51, 51, .85);
 }
 
 .footer {
@@ -174,7 +174,7 @@ th {
 }
 
 .footer a:hover {
-    background-color: #1a222e;
+    background-color: #29364a;
     transition: .8s;
 }
 
@@ -224,7 +224,15 @@ th {
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 576px) {
+    figcaption {
+        font-size: 1.2em;
+    }
+
+
+}
+
+@media (max-width: 414px) {
     .navBar {
         height: fit-content;
     }
@@ -232,5 +240,68 @@ th {
     .navBar a {
         font-size: 14px;
         margin: auto auto;
+    }
+
+    figcaption {
+        font-size: 1em;
+    }
+
+    .gridLeft1 {
+        height: auto;
+    }
+
+    .gridRight1 {
+        height: auto;
+    }
+
+    .gridRight1 h1 {
+        font-size: 2em;
+    }
+
+    .gridLeft2 {
+        height: 100%;
+    }
+
+    table {
+        padding: 10px 10px;
+    }
+
+    .gridLeft2 th {
+        font-size: 1.5em;
+        padding: 10px 10px;
+    }
+
+    .gridRight2 {
+        height: auto;
+        padding: 5% 5%;
+    }
+
+    img.hero {
+        padding: 0px 0px;
+        margin: 0px 0px;
+        width: 100%;
+    }
+
+    .popOut p {
+        font-size: 1em;
+        margin: 0 5%;
+    }
+}
+
+@media (max-width: 1350px) {
+    figcaption {
+        font-size: 1.4em;
+    }
+}
+
+@media (max-width: 1050px) {
+    figcaption {
+        font-size: 1em;
+    }
+
+    .imageGrid {
+        display: flex;
+        flex-direction: column;
+        height: auto;
     }
 }
