@@ -80,6 +80,10 @@ body {
     background-color: #edede6;
 }
 
+.popOut h2 {
+    color: #333;
+}
+
 .gridRight1 h1 {
     padding-top: 15%;
     padding-left: 20%;
