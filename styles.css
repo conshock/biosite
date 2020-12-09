@@ -12,6 +12,7 @@ body {
     overflow: auto;
     position: fixed;
     top: 0;
+    z-index: 9999;
 }
 
 .navBar a {
@@ -22,11 +23,12 @@ body {
     width: 25%;
     text-align: center;
     padding: 12px 0px;
+    z-index: 9;
 }
 
 .navBar a:hover {
     background-color: #545454;
-    transition: .6s;
+    transition: .8s;
 }
 
 .containerTop {
@@ -190,7 +192,7 @@ th {
 }
 
 .footer a:hover {
-    background-color: #29364a;
+    background-color: #545454;
     transition: .8s;
 }
 
