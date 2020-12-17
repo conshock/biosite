@@ -283,13 +283,17 @@ th {
         margin: auto auto;
     }
 
+    .hero {
+        box-shadow: none;
+    }
+
     figcaption {
         font-size: 1em;
     }
 
     .gridLeft1 {
         height: auto;
-        padding: 10% 10%;
+        padding-bottom: 5%;
     }
 
     .gridRight1 {
