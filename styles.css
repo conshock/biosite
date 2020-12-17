@@ -81,6 +81,7 @@ body {
 }
 
 .popOut p {
+    text-align: justify;
     font-size: 20px;
     margin-top: 0;
     margin-bottom: 0;
@@ -88,6 +89,7 @@ body {
 }
 
 .popOut h2 {
+    font-size: 2rem;
     color: #333;
 }
 
@@ -144,7 +146,7 @@ h1#Bio {
     border-radius: 3%;
     border: #edede6 solid 3px;
     border-radius: 3%;
-    box-shadow: 0px 15px 40px 0px rgba(0,0,0,0.75)
+    box-shadow: 0px 15px 40px 0px rgba(0,0,0,0.75);
 }
 
 figcaption {
@@ -322,5 +324,27 @@ th {
         display: flex;
         flex-direction: column;
         height: auto;
+    }
+}
+
+@media (max-width: 1400px) {
+    .containerTop {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .gridRight1 {
+        height: auto;
+        padding-right: 0;
+    }
+
+    .gridRight1 h1 {
+        margin: 10%;
+        text-align: center;
+    }
+
+    .gridLeft1 {
+        padding-left: 0;
+        padding-bottom: 5%;
     }
 }
