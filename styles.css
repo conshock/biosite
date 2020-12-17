@@ -151,10 +151,6 @@ h1#Bio {
 
 figcaption {
     font-size: 20pt;
-    /* background-color: #edede6;
-    color: #333333;
-    border-radius: 5%;
-    border: solid 3px #333; */
 }
 
 table {
@@ -207,12 +203,12 @@ th {
     }
 
     .gridLeft1 {
-        padding: 5% 5%;
+        padding: 10% 5%;
     }
 
     .gridRight1 {
         margin: auto auto;
-        padding: 0% 0%;
+        padding: 5% 0%;
         height: 400px
     }
 
@@ -244,12 +240,36 @@ th {
         height: auto;
     }
 }
+@media (max-width: 1400px) {
+    .containerTop {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .gridRight1 {
+        height: auto;
+        padding-right: 0;
+    }
+
+    .gridRight1 h1 {
+        margin: 10%;
+        text-align: center;
+    }
+
+    .gridLeft1 {
+        padding-left: 0;
+        padding-bottom: 5%;
+    }
+}
 
 @media (max-width: 576px) {
     figcaption {
         font-size: 1.2em;
     }
 
+    .gridLeft1 {
+        padding: 5%;
+    }
 
 }
 
@@ -269,6 +289,7 @@ th {
 
     .gridLeft1 {
         height: auto;
+        padding: 10% 10%;
     }
 
     .gridRight1 {
@@ -327,24 +348,3 @@ th {
     }
 }
 
-@media (max-width: 1400px) {
-    .containerTop {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .gridRight1 {
-        height: auto;
-        padding-right: 0;
-    }
-
-    .gridRight1 h1 {
-        margin: 10%;
-        text-align: center;
-    }
-
-    .gridLeft1 {
-        padding-left: 0;
-        padding-bottom: 5%;
-    }
-}
